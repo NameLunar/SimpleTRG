@@ -12,7 +12,7 @@
       "flags": {}
     }
   ],
-  #"esmodules": ["module/simple.js"],
+  "esmodules": ["module/simple.js"],
   "styles": [    
     {
       "src": "styles/style.css"
