@@ -1,3 +1,60 @@
 {
-    # Тут будет своеобразное хранение любой информации и всего такого в листах 
+    "Actor":
+    {
+        "types": ["character"],
+        "character":
+        {
+            "main"
+            {
+                "lvl": 0,
+                "xp": 0,
+                "hp": 0,
+                "maxhp": 0,
+                "timehp": 0,
+                "deadflag": 0,
+                "speed": 0,
+                "mastery": 0,
+                "armor": 0,
+                "cubehp": ""
+            },
+            "characteristics":
+            {
+                "strength": 8, 
+                "physique": 8,
+                "wisdom": 8,
+                "agility": 8, 
+                "intelligence": 8, 
+                "charisma": 8
+            },   
+            "role": 
+            {
+                "class": "",
+                "subclass": "",
+                "species": "",
+                "typespecies": ""
+            },
+            "history"
+            {
+                "worldview" : "",
+                "bio": "",
+                "personality": "",
+                "ideals": "",
+                "attachments": "",
+                "weaknesses": ""
+            },
+            "spellcells"
+            {
+                "lvl1": 0,
+                "lvl2": 0,
+                "lvl3": 0,
+                "lvl4": 0,
+                "lvl5": 0,
+                "lvl6": 0,
+                "lvl7": 0,
+                "lvl8": 0,
+                "lvl9": 0
+            },
+            "ability": {}
+        }
+    }
 }
