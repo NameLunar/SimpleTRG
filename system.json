@@ -4,26 +4,32 @@
   "title": "SimpleTRG",
   "url": "https://github.com/NameLunar/SimpleTRG/",
   "description": "A simple system for tabletop role-playing games",
-  "license": "None",
+  "license": "MIT",
   "authors": [
     {
-      "name": "Lunar",
-      "url": "https://github.com/NameLunar"
+      "name": "Lunar&ROMCORN",
+      "url": "https://github.com/NameLunar",
+      "flags": {}
     }
   ],
   #"esmodules": ["module/simple.js"],
-  #"styles": ["styles/simple.css"],
-  "packs": [],
+  "styles": [    
+    {
+      "src": "styles/style.css"
+    }
+  ],
   "languages": [
     {
       "lang": "en",
       "name": "English",
-      "path": "lang/en.json"
+      "path": "lang/en.json",
+      "flags": {}
     },
     {
       "lang": "ru",
       "name": "Russian",
-      "path": "lang/ru.json"
+      "path": "lang/ru.json",
+      "flags": {}
     }
   ],
   "compatibility": {
@@ -35,5 +41,10 @@
   "primaryTokenAttribute": "health",
   "secondaryTokenAttribute": "power",
   "manifest": "https://github.com/NameLunar/SimpleTRG/master/system.json",
-  "download": "None"
+  "download": "None",
+  "grid": {
+  "distance": 5,
+  "units": "ft"
+  },
+  "flags": {}
 }
