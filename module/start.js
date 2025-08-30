@@ -6,6 +6,9 @@
         Код после импорта
 */
 
+import { ActorTRG } from "./actor.js";
+import { ActorSheetTRG } from "./actor-sheet.js";
+
 // Функция отслеживания конца инициализации Foundry VTT
 Hooks.once("init", async function() {
     // CONFIG переменная в Foundry VTT
@@ -13,4 +16,8 @@ Hooks.once("init", async function() {
         formula: "1d20", // Изменить на пользовательскую позже
         decimals: 2
     };
+    CONFIG.Actor.documentClass = ActorTRG; // Меняет программный функционал стандартного листа на самопис
+
+    Actors.unregisterSheet("core", ActorSheet); // Отключает возможность выбрать стандартный лист 
+    Actors.registerSheet("simpletrg", ActorSheetTRG, { makeDefault: true }); // Ставит стандартным листом самопис макет
 })
