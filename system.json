@@ -36,12 +36,11 @@
     "minimum": "13",
     "verified": "13"
   },
-  "gridDistance": 5,
-  "gridUnits": "ft",
-  "primaryTokenAttribute": "health",
-  "secondaryTokenAttribute": "power",
+  "primaryTokenAttribute": "hp",
+  "background": "",
+  "secondaryTokenAttribute": "armor",
   "manifest": "https://github.com/NameLunar/SimpleTRG/master/system.json",
-  "download": "None",
+  "download": "",
   "grid": {
   "distance": 5,
   "units": "ft"
