@@ -4,7 +4,7 @@
         "types": ["character"],
         "character":
         {
-            "main"
+            "main":
             {
                 "lvl": 0,
                 "xp": 0,
@@ -20,9 +20,9 @@
             "characteristics":
             {
                 "strength": 8, 
-                "physique": 8,
+                "endurance": 8,
                 "wisdom": 8,
-                "agility": 8, 
+                "dexterity": 8, 
                 "intelligence": 8, 
                 "charisma": 8
             },   

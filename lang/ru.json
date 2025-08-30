@@ -1,3 +1,8 @@
 {
-    # перевод на русич
+    "CH.strength": "Сила",
+    "CH.charisma": "Харизма",
+    "CH.intelligence": "Интеллект",
+    "CH.dexterity": "Ловкость",
+    "CH.endurance": "Телосложение",
+    "CH.wisdom": "Мудрость"
 }

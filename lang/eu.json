@@ -1,3 +1,8 @@
 {
-    #перевод на инглиш
+    "CH.strength": "Strength",
+    "CH.charisma": "Charisma",
+    "CH.intelligence": "Intelligence",
+    "CH.dexterity": "Dexterity",
+    "CH.endurance": "Endurance",
+    "CH.wisdom": "Wisdom"
 }
