@@ -8,15 +8,25 @@
             {
                 "lvl": 0,
                 "xp": 0,
-                "hp": 0,
-                "maxhp": 0,
+                "hp": 
+                {
+                    "min": 0,
+                    "max": 0,
+                    "value": 0,
+                    "dtype": "Resource"
+                },
                 "timehp": 0,
                 "deadflag": 0,
+                "liveflag": 0,
                 "speed": 0,
                 "mastery": 0,
                 "armor": 0,
-                "dicehp": "",
-                "currectdicehp": ""
+                "dicehp": 
+                {
+                    "min": 0,
+                    "max": 0,
+                    "value": 0
+                }
             },
             "characteristics":
             {

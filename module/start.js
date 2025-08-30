@@ -8,9 +8,14 @@
 
 import { ActorTRG } from "./actor.js";
 import { ActorSheetTRG } from "./actor-sheet.js";
+import { createMacro } from "./macro.js";
 
 // Функция отслеживания конца инициализации Foundry VTT
 Hooks.once("init", async function() {
+    // Создаёт пространство имён. В будущес записывать переменные суда
+    game.simpletrg = {
+        createMacro
+    };
     // CONFIG переменная в Foundry VTT
     CONFIG.Combat.initiative = {
         /*Изменить (30.08.2025)*/
