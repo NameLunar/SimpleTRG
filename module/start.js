@@ -13,7 +13,8 @@ import { ActorSheetTRG } from "./actor-sheet.js";
 Hooks.once("init", async function() {
     // CONFIG переменная в Foundry VTT
     CONFIG.Combat.initiative = {
-        formula: "1d20", // Изменить на пользовательскую позже
+        /*Изменить (30.08.2025)*/
+        formula: "1d20",
         decimals: 2
     };
     CONFIG.Actor.documentClass = ActorTRG; // Меняет программный функционал стандартного листа на самопис

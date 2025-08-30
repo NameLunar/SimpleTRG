@@ -1,49 +1,52 @@
 {
-  "id": "simpletrg",
-  "version": "0.0.1",
-  "title": "SimpleTRG",
-  "url": "https://github.com/NameLunar/SimpleTRG/",
-  "description": "A simple system for tabletop role-playing games",
-  "license": "MIT",
-  "authors": [
-    {
-      "name": "Lunar&ROMCORN",
-      "url": "https://github.com/NameLunar",
-      "flags": {}
-    }
-  ],
-  "esmodules": ["module/simple.js"],
-  "styles": [    
-    {
-      "src": "styles/style.css"
-    }
-  ],
-  "languages": [
-    {
-      "lang": "en",
-      "name": "English",
-      "path": "lang/en.json",
-      "flags": {}
+    "id": "simpletrg",
+    "version": "0.0.1",
+    "title": "SimpleTRG",
+    "url": "https://github.com/NameLunar/SimpleTRG/",
+    "description": "A simple system for tabletop role-playing games",
+    "license": "MIT",
+    "authors": [
+        {
+            "name": "Lunar&ROMCORN",
+            "url": "https://github.com/NameLunar",
+            "flags": {}
+        }
+    ],
+    "esmodules": ["module/start.js"],
+    "styles": [        
+        {
+            "src": "styles/style.css"
+        }
+    ],
+    "languages": [
+        {
+            "lang": "en",
+            "name": "English",
+            "path": "lang/en.json",
+            "flags": {}
+        },
+        {
+            "lang": "ru",
+            "name": "Russian",
+            "path": "lang/ru.json",
+            "flags": {}
+        }
+    ],
+    "compatibility": {
+        "minimum": "13",
+        "verified": "13"
     },
-    {
-      "lang": "ru",
-      "name": "Russian",
-      "path": "lang/ru.json",
-      "flags": {}
-    }
-  ],
-  "compatibility": {
-    "minimum": "13",
-    "verified": "13"
-  },
-  "primaryTokenAttribute": "main.hp",
-  "background": "",
-  "secondaryTokenAttribute": "main.armor",
-  "manifest": "https://github.com/NameLunar/SimpleTRG/master/system.json",
-  "download": "",
-  "grid": {
-  "distance": 5,
-  "units": "ft"
-  },
-  "flags": {}
+    "primaryTokenAttribute": "main.hp",
+    "background": "",
+    "secondaryTokenAttribute": "main.armor",
+    "manifest": "https://github.com/NameLunar/SimpleTRG/master/system.json",
+    "download": "",
+    "grid":
+    [
+        {
+           "distance": 5,
+           "units": "ft"
+        }
+    ],
+     "flags": {}
 }

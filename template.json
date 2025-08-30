@@ -15,7 +15,8 @@
                 "speed": 0,
                 "mastery": 0,
                 "armor": 0,
-                "cubehp": ""
+                "dicehp": "",
+                "currectdicehp": ""
             },
             "characteristics":
             {
@@ -56,16 +57,21 @@
             },
             "magic":
             {
-                "maincharacterist": "",
-                "name": "",
-                "description": "",
-                "type": "",
-                "school": "",
-                "distance": "",
-                "duration": "",
-                "time": ""
+                #"maincharacterist": "",
+                #"name": "",
+                #"description": "",
+                #"type": "",
+                #"school": "",
+                #"distance": "",
+                #"duration": "",
+                #"time": ""
             },
-            "ability": {}
+            "ability": 
+            {
+                #"name": "",
+                #"description": "",
+                #"type": ""
+            }
         }
     }
 }
