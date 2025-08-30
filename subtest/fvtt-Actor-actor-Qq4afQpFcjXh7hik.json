@@ -1,0 +1,236 @@
+
+
+Код с Simple World Builder. Пример храненяи персонажа с предметами и атрибутами
+
+
+
+
+{
+  "name": "New Actor",
+  "type": "character",
+  "folder": null,
+  "img": "icons/svg/mystery-man.svg",
+  "system": {
+    "biography": "Sss",
+    "health": {
+      "value": 10,
+      "min": 0,
+      "max": 10
+    },
+    "power": {
+      "value": 5,
+      "min": 0,
+      "max": 5
+    },
+    "attributes": {
+      "Атрибут1": {
+        "value": "Значение",
+        "label": "Описание",
+        "dtype": "String",
+        "group": ""
+      },
+      "Атрибут2": {
+        "min": 0,
+        "value": 1,
+        "max": 2,
+        "label": "Описание",
+        "dtype": "Resource",
+        "group": ""
+      },
+      "Атрибут3": {
+        "value": "Значнеие",
+        "label": "Формула",
+        "dtype": "Formula",
+        "group": ""
+      },
+      "ГруппаАтьрибутов": {
+        "АтрибутВГруппе": {
+          "value": "Значнеие",
+          "label": "Описание",
+          "dtype": "String",
+          "group": "ГруппаАтьрибутов"
+        }
+      }
+    },
+    "groups": {
+      "ГруппаАтьрибутов": {
+        "key": "ГруппаАтьрибутов",
+        "label": "Описание группы",
+        "dtype": "Number"
+      }
+    }
+  },
+  "prototypeToken": {
+    "name": "New Actor",
+    "displayName": 0,
+    "actorLink": false,
+    "width": 1,
+    "height": 1,
+    "texture": {
+      "src": "icons/svg/mystery-man.svg",
+      "anchorX": 0.5,
+      "anchorY": 0.5,
+      "offsetX": 0,
+      "offsetY": 0,
+      "fit": "contain",
+      "scaleX": 1,
+      "scaleY": 1,
+      "rotation": 0,
+      "tint": "#ffffff",
+      "alphaThreshold": 0.75
+    },
+    "lockRotation": false,
+    "rotation": 0,
+    "alpha": 1,
+    "disposition": -1,
+    "displayBars": 0,
+    "bar1": {
+      "attribute": "health"
+    },
+    "bar2": {
+      "attribute": "power"
+    },
+    "light": {
+      "negative": false,
+      "priority": 0,
+      "alpha": 0.5,
+      "angle": 360,
+      "bright": 0,
+      "color": null,
+      "coloration": 1,
+      "dim": 0,
+      "attenuation": 0.5,
+      "luminosity": 0.5,
+      "saturation": 0,
+      "contrast": 0,
+      "shadows": 0,
+      "animation": {
+        "type": null,
+        "speed": 5,
+        "intensity": 5,
+        "reverse": false
+      },
+      "darkness": {
+        "min": 0,
+        "max": 1
+      }
+    },
+    "sight": {
+      "enabled": false,
+      "range": 0,
+      "angle": 360,
+      "visionMode": "basic",
+      "color": null,
+      "attenuation": 0.1,
+      "brightness": 0,
+      "saturation": 0,
+      "contrast": 0
+    },
+    "detectionModes": [],
+    "occludable": {
+      "radius": 0
+    },
+    "ring": {
+      "enabled": false,
+      "colors": {
+        "ring": null,
+        "background": null
+      },
+      "effects": 1,
+      "subject": {
+        "scale": 1,
+        "texture": null
+      }
+    },
+    "turnMarker": {
+      "mode": 1,
+      "animation": null,
+      "src": null,
+      "disposition": false
+    },
+    "movementAction": null,
+    "flags": {},
+    "randomImg": false,
+    "appendNumber": false,
+    "prependAdjective": false
+  },
+  "items": [
+    {
+      "name": "Предмет",
+      "type": "item",
+      "_id": "CT2T4LcV3Yn21hSy",
+      "img": "icons/svg/item-bag.svg",
+      "system": {
+        "description": "<p>Описание предмета</p>",
+        "quantity": 1,
+        "weight": 0,
+        "attributes": {
+          "Атрибутключ": {
+            "value": "АтрибутЗначение",
+            "label": "АтрибутЛабер",
+            "dtype": "String",
+            "group": ""
+          },
+          "Ресурс": {
+            "min": 0,
+            "value": 1,
+            "max": 2,
+            "label": "АтрибутЛабер",
+            "dtype": "Resource",
+            "group": ""
+          },
+          "Формула": {
+            "value": "Валуе",
+            "label": "АтрибутЛабер",
+            "dtype": "Formula",
+            "group": ""
+          },
+          "ГруппаАтрибутов": {
+            "Ключ": {
+              "value": "Значнеие",
+              "label": "Лабер",
+              "dtype": "String",
+              "group": "ГруппаАтрибутов"
+            }
+          }
+        },
+        "groups": {
+          "ГруппаАтрибутов": {
+            "key": "ГруппаАтрибутов",
+            "label": "ГрупаЛабер",
+            "dtype": "String"
+          }
+        }
+      },
+      "effects": [],
+      "folder": null,
+      "sort": 0,
+      "flags": {},
+      "_stats": {
+        "coreVersion": "13.347",
+        "systemId": "worldbuilding",
+        "systemVersion": "0.8.2",
+        "createdTime": 1756555150271,
+        "modifiedTime": 1756555289439,
+        "lastModifiedBy": "MCfBIJ2rtEU4bh37"
+      }
+    }
+  ],
+  "effects": [],
+  "flags": {},
+  "_stats": {
+    "coreVersion": "13.347",
+    "systemId": "worldbuilding",
+    "systemVersion": "0.8.2",
+    "createdTime": 1756547427798,
+    "modifiedTime": 1756555369420,
+    "lastModifiedBy": "MCfBIJ2rtEU4bh37",
+    "exportSource": {
+      "worldId": "121",
+      "uuid": "Actor.SvBInF8uEgpo33W3",
+      "coreVersion": "13.347",
+      "systemId": "worldbuilding",
+      "systemVersion": "0.8.2"
+    }
+  }
+}

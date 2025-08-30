@@ -73,5 +73,24 @@
                 #"type": ""
             }
         }
+    },
+    "Item": {
+        "types": ["item"],
+        "item": {
+            "description": "",
+            "quantity": 1,
+            "weight": 0,
+            "priceMM": 0,
+            "priceSM": 0,
+            "priceIM": 0,
+            "priceGM": 0,
+            "pricePM": 0,
+            "attributes": {
+            
+            },
+        "groups": {
+        
+        }
+        }
     }
 }
