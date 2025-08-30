@@ -64,7 +64,8 @@
                 #"school": "",
                 #"distance": "",
                 #"duration": "",
-                #"time": ""
+                #"time": "",
+                #"group": {}
             },
             "ability": 
             {
@@ -85,12 +86,8 @@
             "priceIM": 0,
             "priceGM": 0,
             "pricePM": 0,
-            "attributes": {
-            
-            },
-        "groups": {
-        
-        }
+            "attributes": {},
+            "groups": {}
         }
     }
 }
